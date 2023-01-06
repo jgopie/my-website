@@ -1,0 +1,15 @@
+.profilePic{
+    border-radius: 50%;
+}
+
+.homeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.writtenContent{
+    width: 30%;
+}

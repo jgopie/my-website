@@ -5,9 +5,9 @@ import styles from "./Header.module.css";
 const Header = () => {
     return (
         <>
-            <Navbar variant="dark" sticky="top" className={styles.customNav}>
+            <Navbar variant="dark" sticky="top">
                 <div className={styles.logoDiv}>
-                    <Navbar.Brand href="#home" className={styles.logo}>Jordan Ricardo Gopie</Navbar.Brand>
+                    <p className={styles.logo}>JRG</p>
                 </div>
                 <div className={styles.buttonDiv}>
                     <Nav>
