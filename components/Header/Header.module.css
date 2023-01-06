@@ -1,0 +1,29 @@
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.logo {
+    font-family: 'Explora', cursive;
+    font-size: 96px;
+}
+
+.buttonDiv{
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.buttonText{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    margin: 0 45% 0 45%;
+}
+
+.customNav{
+    background-color: #0E0C0C;
+}
+
