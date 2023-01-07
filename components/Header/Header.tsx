@@ -1,7 +1,7 @@
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import styles from "./Header.module.css";
-import Link from "next/link";
+import Link from "next/link"
 
 const Header = () => {
     return (
@@ -12,9 +12,9 @@ const Header = () => {
                 </div>
                 <div className={styles.buttonDiv}>
                     <Nav>
-                        <Nav.Link href="/" className={styles.buttonText}>Home</Nav.Link>
-                        <Nav.Link href="/portfolio" className={styles.buttonText}>Portfolio</Nav.Link>
-                        <Nav.Link href="/blog" className={styles.buttonText}>Blog</Nav.Link>
+                        <Link href="/" className={styles.buttonText}>Home</Link>
+                        <Link href="/portfolio" className={styles.buttonText}>Portfolio</Link>
+                        <Link href="/blog" className={styles.buttonText}>Blog</Link>
                     </Nav>
                 </div>
             </Navbar>
