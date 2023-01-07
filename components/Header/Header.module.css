@@ -20,8 +20,9 @@
 
 .buttonText{
     font-family: 'Inconsolata', monospace;
-    font-size: 24px;
+    font-size: 32px;
     margin: 0 45% 0 45%;
+    font-weight: bolder;
 }
 
 .customNav{

@@ -8,8 +8,14 @@
     align-items: center;
     flex-direction: column;
     color: white;
+    font-family: 'Inconsolata', monospace;
 }
 
 .writtenContent{
     width: 30%;
+}
+
+.paragraphs{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
