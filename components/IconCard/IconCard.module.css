@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.cardItem{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}

@@ -1,21 +1,46 @@
-.profilePic{
-    border-radius: 50%;
-}
+
 
 .homeContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
     color: white;
     font-family: 'Inconsolata', monospace;
 }
 
-.writtenContent{
-    width: 30%;
+.profilePic{
+    border-radius: 50%;
+    grid-column: 1/-1;
+    justify-self: center;
 }
 
+.writtenContent{
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.paragraphContainer{
+    display: flex;
+    width: 35vw;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+
 .paragraphs{
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+@media only screen and (max-width: 600px){
+    .paragraphContainer{
+        width: 100%;
+        margin-left: 1vw;
+        margin-right: 1vh;
+    }
 }

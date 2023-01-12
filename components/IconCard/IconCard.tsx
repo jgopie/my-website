@@ -10,7 +10,7 @@ import styles from "./IconCard.module.css";
 const IconCard = () => {
     return (
         <div className={styles.card}>
-            <a href="https://www.python.org/">
+            <a href="https://www.python.org/" className={styles.cardItem}>
                         <Image 
                             src={pythonIcon} 
                             alt="Python"
@@ -18,7 +18,7 @@ const IconCard = () => {
                             width={50}
                         />
                     </a>
-                    <a href="https://www.javascript.com/">
+                    <a href="https://www.javascript.com/" className={styles.cardItem}>
                         <Image
                             src={javascriptIcon}
                             alt="Javascript"
@@ -26,7 +26,7 @@ const IconCard = () => {
                             width={50}
                         />
                     </a>
-                    <a href="https://www.typescriptlang.org/">
+                    <a href="https://www.typescriptlang.org/" className={styles.cardItem}>
                         <Image
                             src={typescriptIcon}
                             alt="Typescript"
@@ -34,7 +34,7 @@ const IconCard = () => {
                             width={50}
                         />
                     </a>
-                    <a href="https://reactjs.org/">
+                    <a href="https://reactjs.org/" className={styles.cardItem}>
                         <Image
                             src={reactIcon}
                             alt="React"
@@ -42,7 +42,7 @@ const IconCard = () => {
                             width={50}
                         />
                     </a>
-                    <a href="https://nextjs.org/">
+                    <a href="https://nextjs.org/" className={styles.cardItem}>
                         <Image
                             src={nextIcon}
                             alt="Next js"
@@ -50,7 +50,7 @@ const IconCard = () => {
                             width={50}
                         />
                     </a>
-                    <a href="https://vitejs.dev/">
+                    <a href="https://vitejs.dev/" className={styles.cardItem}>
                         <Image
                             src={viteIcon}
                             alt="Vite"

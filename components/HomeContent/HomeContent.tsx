@@ -14,9 +14,10 @@ const HomeContent = () => {
                     height={250}
                     width={250}
                 />
-                <h1>Jordan Gopie</h1>
-                <h2>Freelance Developer</h2>
                 <div className={styles.writtenContent}>
+                    <h1>Jordan Gopie</h1>
+                    <h2>Freelance Developer</h2>
+                    <div className={styles.paragraphContainer}>
                     <p className={styles.paragraphs}>
                         Hello and welcome to my own little space!
                         I'm a Business major who graduated from the University of the West Indies
@@ -31,7 +32,8 @@ const HomeContent = () => {
                         before then moving on to C, C++, and finally Python. I enjoy learning about new languages,
                         technologies, and frameworks.
                     </p>
-                    <IconCard/>
+                    </div>
+                    <IconCard />
                 </div>
             </div>
         </>
