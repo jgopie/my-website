@@ -11,8 +11,9 @@ const HomeContent = () => {
                     src={profilePic}
                     alt="Picture of the author"
                     className={styles.profilePic}
-                    height={250}
-                    width={250}
+                    height={300}
+                    width={300}
+                    unoptimized={true}
                 />
                 <div className={styles.writtenContent}>
                     <h1>Jordan Gopie</h1>
